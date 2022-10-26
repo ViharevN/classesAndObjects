@@ -3,8 +3,8 @@ public class Main {
 
     public static void main(String[] args) {
         Author author = new Author("Mark", "Twain");
-        System.out.println("author.name = " + author.firstName);
-        System.out.println("author.secondName = " + author.lastName);
+        System.out.println("author.name = " + author.getFirstName());
+        System.out.println("author.secondName = " + author.getLastName());
 
         Book book = new Book("Tom Sayer", author, 1876);
         System.out.println("book.name = " + book.getName());
